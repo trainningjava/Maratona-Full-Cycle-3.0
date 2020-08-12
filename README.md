@@ -16,11 +16,11 @@ A Maratona Full Cycle 3.0 é uma experiência online criada pela School of Net d
 
 ## :package: Desafios
 
-- [desafios1] (https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio1)
-- [desafios2] (https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio2)
-- [desafios3] (https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio3)
-- [desafios4] (https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio4)
-- [desafios5] (https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio5)
+- [desafios1](https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio1)
+- [desafios2](https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio2)
+- [desafios3](https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio3)
+- [desafios4](https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio4)
+- [desafios5](https://github.com/trainningjava/Maratona-Full-Cycle-3.0/tree/master/desafio5)
 
 ## :rocket: Tecnologias Utilizadas 
 
