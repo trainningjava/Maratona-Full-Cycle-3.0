@@ -1,11 +1,11 @@
 <h1 align="center">
-    Maratona Full Cycle 3.0
+    Maratona Full Cycle 3.0 by <img src="./public/assets/img/curso.png">
 </h1>
 
 <h3 align="center">
   <a href="#information_source-sobre-o-que-se-trata">Sobre o que se trata ?</a>&nbsp;|&nbsp;
   <a href="#package-desafios">Desafios</a>&nbsp;|&nbsp;
-  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
+  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;
 </h3>
 
 _________
