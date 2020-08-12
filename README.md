@@ -1,8 +1,7 @@
 # Maratona-Full-Cycle-3.0
-Maratona Full Cycle 3.0
 
 <h1 align="center">
-    Maratona Full Cycle 3.0 
+    Maratona Full Cycle  
 </h1>
 
 <h3 align="center">
