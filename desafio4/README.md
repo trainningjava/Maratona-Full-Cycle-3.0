@@ -1,8 +1,6 @@
-titulo
-Maratona Full Cycle 3.0 
-
-
-
+<h1 align="center">
+    Maratona Full Cycle 3.0 by <img width="120" height="40" src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/curso1.png">
+</h1>
 
 <img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/django.png" alt="Django" width="50" height="50"> <h1>Listagem das lives com Django e SQLite</h1>
 
