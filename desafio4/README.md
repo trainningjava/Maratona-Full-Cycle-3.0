@@ -4,7 +4,7 @@ Maratona Full Cycle 3.0
 
 
 
-<img src="https://maratonafc3-assets.s3-sa-east-1.amazonaws.com/maratonafc3-assets/uploads/news/images/a99f1fc70d9648cdb9ea4d21a626f977.png" alt="Django" width="50" height="50"> <h1>Listagem das lives com Django e SQLite</h1>
+<img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/django.png" alt="Django" width="50" height="50"> <h1>Listagem das lives com Django e SQLite</h1>
 
 
 <h2>Informações do desafio</h2>
