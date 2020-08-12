@@ -4,7 +4,7 @@ Maratona Full Cycle 3.0
 
 
 
-<img src="https://maratonafc3-assets.s3-sa-east-1.amazonaws.com/maratonafc3-assets/uploads/news/images/5cfcf1f3e6df4f57a887fc64f58007e9.png" alt="buffalo" width="50" height="50"> <h1>Hello Full Cycle utilizando Buffalo</h1>
+<img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/buffalo.png" alt="buffalo" width="50" height="50"> <h1>Hello Full Cycle utilizando Buffalo</h1>
 
 
 <h2>Informações do desafio</h2>
