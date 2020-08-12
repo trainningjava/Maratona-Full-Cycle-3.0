@@ -1,4 +1,4 @@
-<img src="https://maratonafc3-assets.s3-sa-east-1.amazonaws.com/maratonafc3-assets/uploads/news/images/ac814a57a7144f60a214e4e09f6b0b0f.png" alt="docker" width="50" height="50"> <h1>Hello Full Cycle utilizando Golang e Docker</h1>
+<img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/docker.png" alt="docker" width="50" height="50"> <h1>Hello Full Cycle utilizando Golang e Docker</h1>
 
 
 <h2>Informações do desafio</h2>
