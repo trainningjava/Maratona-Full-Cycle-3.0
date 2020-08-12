@@ -1,0 +1,13 @@
+
+service: desafio3
+
+provider:
+  name: openwhisk
+  ignore_certs: true
+
+functions:
+  soma:
+    handler: handler.soma
+
+plugins:
+  - serverless-openwhisk

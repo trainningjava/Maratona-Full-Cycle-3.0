@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>Maratona</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">aula</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for mar in maratona %}
+    <tr>
+      <th scope="row">{{ mar.pk }}</th>
+      <td>{{ mar.aula }}</td>
+    </tr>
+    {% endfor %}
+{% endblock %}
+  </tbody>
+</table>
