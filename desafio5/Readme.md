@@ -1,8 +1,6 @@
-titulo
-Maratona Full Cycle 3.0 
-
-
-
+<h1 align="center">
+    Maratona Full Cycle 3.0 by <img width="120" height="40" src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/curso1.png">
+</h1>
 
 <img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/nest.png" alt="Nest.js" width="50" height="50"> <h1>Endpoint com a programação das lives com Nest.js e SQLite</h1>
 
