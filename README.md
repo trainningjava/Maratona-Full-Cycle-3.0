@@ -1,5 +1,5 @@
 <h1 align="center">
-    Maratona Full Cycle 3.0
+    Maratona Full Cycle 3.0 by <img src="./public/assets/img/curso.png">
 </h1>
 
 <h3 align="center">
