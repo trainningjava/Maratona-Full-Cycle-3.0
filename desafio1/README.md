@@ -1,3 +1,7 @@
+<h1 align="center">
+    Maratona Full Cycle 3.0 by <img width="120" height="40" src="./public/assets/img/curso1.png">
+</h1>
+
 <img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/docker.png" alt="docker" width="50" height="50"> <h1>Hello Full Cycle utilizando Golang e Docker</h1>
 
 
