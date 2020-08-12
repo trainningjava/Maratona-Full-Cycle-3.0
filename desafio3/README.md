@@ -1,45 +1,45 @@
-# Serverless OpenWhisk Node.js Template
+<h1 align="center">
+    Maratona Full Cycle 3.0 by <img width="120" height="40" src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/curso1.png">
+</h1>
 
-Hello! 😎
+<img src="https://github.com/trainningjava/Maratona-Full-Cycle-3.0/blob/master/public/assets/img/serverless.png" alt="docker" width="50" height="50"> <h1>Somando com endpoint
 
-This is a template Node.js service for the OpenWhisk platform. Before you can deploy your service, please follow the instructions below…
+## Informações do desafio
 
-### Have you set up your account credentials?
+Esse terceiro desafio vai te introduzir ao mundo serverless!
 
-Before you can deploy your service to OpenWhisk, you need to have an account registered with the platform.
+E por conta disso você terá que gerar um endpoint no seguinte 
+formato: /soma?a={numero}&b={numero}.
 
-- _Want to run the platform locally?_ Please read the project's [_Quick Start_](https://github.com/openwhisk/openwhisk#quick-start) guide for deploying it locally.
-- _Want to use a hosted provider?_ Please sign up for an account with [IBM Bluemix](https://console.ng.bluemix.net/) and then follow the instructions for getting access to [OpenWhisk on Bluemix](https://console.ng.bluemix.net/openwhisk/).
+Quando alguém acessar através do método get um json 
+deve ser retornado no formato:
 
-Account credentials for OpenWhisk can be provided through a configuration file or environment variables. This plugin requires the API endpoint, namespace and authentication credentials.
+`{"resultado":valor}`
 
-**Do you want to use a configuration file for storing these values?** Please [follow the instructions](https://console.ng.bluemix.net/openwhisk/cli) for setting up the OpenWhisk command-line utility. This tool stores account credentials in the `.wskprops` file in the user's home directory. The plugin automatically extracts credentials from this file at runtime. No further configuration is needed.
+Para realizar o desafio, fique na liberdade para escolher entre as linguagens: javascript, golang ou python. Também utilize o framework Serverless para realizar essa tarefa e utilize o cloud provider que achar mais conveniente.
 
-**Do you want to use environment variables for credentials?** Use the following environment variables to be pass in account credentials. These values override anything extracted from the configuration file.
 
-- _OW_APIHOST_ - Platform endpoint, e.g. `openwhisk.ng.bluemix.net`
-- _OW_AUTH_ - Authentication key, e.g. `xxxxxx:yyyyy
+## Minhas referências
 
-### Have you installed the provider plugin?
+* https://www.serverless.com/framework/docs/getting-started/
+* https://www.serverless.com/examples/openwhisk-node-simple/
+* https://github.com/serverless/examples/blob/master/openwhisk-node-simple/hello_world.js
+* https://www.serverless.com/framework/docs/providers/openwhisk/cli-reference/invoke/
+* https://www.serverless.com/framework/docs/providers/openwhisk/guide/credentials/
 
-Install project dependencies which includes the OpenWhisk provider plugin.
+## Executando
 
+### Autenticar na IBM Cloud
+
+```bash
+docker-compose run serveless ibmcloud login
+docker-compose run serveless ibmcloud api
+docker-compose run serveless ibmcloud wsk property get --auth
 ```
-$ npm install
+
+### Acessando funcion localmente
+
+```bash
+docker-compose run serveless sls invoke local -f soma --data '{"a": 1, "b": 2 }'
 ```
 
-**_…and that's it!_**
-
-### Deploy Service
-
-Use the `serverless` command to deploy your service. The sample `handler.js` file can be deployed without modification.
-
-```shell
-serverless deploy
-```
-
-### Issues / Feedback / Feature Requests?
-
-If you have any issues, comments or want to see new features, please file an issue in the project repository:
-
-https://github.com/serverless/serverless-openwhisk
